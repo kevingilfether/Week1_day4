@@ -45,7 +45,7 @@ namespace Week1_day4
 
             //String methods
 
-            // Trim() -- Removes any empty space on either side of it, preserves space in the middle.
+            //Trim() -- Removes any empty space on either side of it, preserves space in the middle.
 
             //ToString() -- Changes input to a string (useful for converting the numbers)
 
@@ -65,6 +65,53 @@ namespace Week1_day4
             //Split() -- Can split the strings into seperate parts based upon selector
 
             //Replace() -- Like find and replace on microsoft word document
+
+
+
+            // Compares first and last name lengths
+
+            //string firstName = "Kevin";
+            //string lastName = "Gilfether";
+
+
+            //if (firstName.Length > lastName.Length)
+            //{
+            //    Console.WriteLine("First is longer.");
+            //}
+            //else if (firstName.Length < lastName.Length)
+            //{
+            //    Console.WriteLine("Last must be longer!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Samesies!");
+            //}
+
+
+            // Prints escape sequences on one Console:
+
+            // Console.WriteLine ("\t\\\n\a");
+
+
+            // Compares strings for equality
+            //Console.WriteLine("Give me a name: ");
+            //string fName = (Console.ReadLine());
+
+            //Console.WriteLine("Give me another name: ");
+            //string sName = (Console.ReadLine());
+
+            //switch (fName.Length == sName.Length)
+            //{
+            //    case true:
+            //        Console.WriteLine("The names are the same \n length.");
+            //        break;
+            //    case false:
+            //        Console.WriteLine("The names are different lengths.");
+            //        break;
+            //    default:
+            //        Console.WriteLine("The names are the same length.");
+            //        break;
+            //}
 
 
         }
