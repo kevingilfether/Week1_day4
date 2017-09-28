@@ -118,8 +118,8 @@ namespace Week1_day4
 
             string answer = "cat";
             Console.WriteLine("Guess the type of pet.");
-            // combines two methods!
-            string guess = Console.ReadLine().ToLower();
+            // combines two methods! or three!
+            string guess = Console.ReadLine().ToLower().Trim();
             // Redundant, but cool, line below. Remember the "()"
             guess = guess.ToLower();
 
