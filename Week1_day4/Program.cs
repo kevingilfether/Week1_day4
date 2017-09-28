@@ -23,8 +23,8 @@ namespace Week1_day4
 
 
             // Cool way to concatenate using indexes. {0} = zero index
-            string firstName = "Kevin";
-            string catName = "Nugget";
+            //string firstName = "Kevin";
+            //string catName = "Nugget";
 
             //Console.WriteLine("My first name is {0} and my cat is {1}.", firstName, catName);
 
@@ -34,8 +34,39 @@ namespace Week1_day4
 
             //Obscure rare way to concatenate
 
-           //Console.WriteLine(string.Concat(firstName, catName));
-            
+            //Console.WriteLine(string.Concat(firstName, catName));
+
+            //.Length is a class of strings, it's useful on projects and stuff. 
+            // It counts the number of characters in a string and then returns 
+
+            //Console.WriteLine(firstName.Length);
+
+
+
+            //String methods
+
+            // Trim() -- Removes any empty space on either side of it, preserves space in the middle.
+
+            //ToString() -- Changes input to a string (useful for converting the numbers)
+
+            //ToUpper() -- Makes string all UPPERCASE.
+
+            //To Lower() -- makes string all lowercase.
+
+            //IndexOf() -- Returns an integer based on the location of the searched for substring
+            // (in this case, the first character)
+
+            //LastIndexOf() -- Does IndexOf(), but from right to left.
+
+            //Substring() -- Extracts a portion of a string based upon an index
+
+            //Remove() -- returns a specified part of the string
+
+            //Split() -- Can split the strings into seperate parts based upon selector
+
+            //Replace() -- Like find and replace on microsoft word document
+
+
         }
     }
 }
