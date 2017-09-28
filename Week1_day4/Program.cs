@@ -93,7 +93,7 @@ namespace Week1_day4
             // Console.WriteLine ("\t\\\n\a");
 
 
-            // Compares strings for equality
+            // Compares strings for equality of characters
             //Console.WriteLine("Give me a name: ");
             //string fName = (Console.ReadLine());
 
@@ -112,6 +112,32 @@ namespace Week1_day4
             //        Console.WriteLine("The names are the same length.");
             //        break;
             //}
+
+
+            //Makes a "guess the pet game"
+
+            string answer = "cat";
+            Console.WriteLine("Guess the type of pet.");
+            // combines two methods!
+            string guess = Console.ReadLine().ToLower();
+            // Redundant, but cool, line below. Remember the "()"
+            guess = guess.ToLower();
+
+            switch (guess == answer)
+            {
+                case true:
+                    Console.WriteLine("You guessed correctly.");
+                    break;
+                case false:
+                    Console.WriteLine("You guessed wrong...");
+                    break;
+                default:
+                    break;
+            }
+
+
+
+
 
 
         }
